@@ -19,10 +19,4 @@ I put my notes and everything I learned in this process :)
 	</ul>
 </details>
 
-<details> 
-<summary>SQL</summary> 
-	<ul>
-			
-	</ul>
-</details>
-
+## [SQL](SQL/SQL)
