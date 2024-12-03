@@ -9,19 +9,20 @@ I put my notes and everything I learned in this process :)
 <summary>Internet</summary> 
 	<ul>
 			<li>How does the internet work?</li>
-	</ul
+	</ul>
 </details>
 
 <details> 
 <summary>Git</summary> 
 	<ul>
 			
-	</ul
+	</ul>
 </details>
 
+<details> 
 <summary>SQL</summary> 
 	<ul>
 			
-	</ul
+	</ul>
 </details>
 
