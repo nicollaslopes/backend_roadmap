@@ -20,5 +20,5 @@ I put my notes and everything I learned in this process :)
 </details>
 
 SQL
-* [What is SQL?l](what_is_sql.md)
-* [NoSQL vs SQL](nosql_vs_sql.md)
+* [What is SQL?](SQL/what_is_sql.md)
+* [NoSQL vs SQL](SQL/nosql_vs_sql.md)
