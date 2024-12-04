@@ -19,9 +19,6 @@ I put my notes and everything I learned in this process :)
 	</ul>
 </details>
 
-<details> 
-<summary>SQL</summary> 
-	<ul>
-			<li>[SQL](SQL/SQL.md)</li>
-	</ul>
-</details>
+SQL
+* [What is SQL?](What%20is%20SQL?.md)
+* [NoSQL vs SQL](NoSQL%20vs%20SQL)
