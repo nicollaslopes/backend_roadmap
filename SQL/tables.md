@@ -10,7 +10,7 @@ CREATE TABLE employees(
     name TEXT,
     age INTEGER,
     is_manager BOOLEAN,
-	salary INTEGER
+salary INTEGER
 );
 ```
 
