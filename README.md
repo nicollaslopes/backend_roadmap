@@ -8,3 +8,5 @@ I put my notes and everything I learned in this process :)
 SQL
 * [What is SQL?](SQL/what_is_sql.md)
 * [NoSQL vs SQL](SQL/nosql_vs_sql.md)
+* [Tables](SQL/tables.md)
+* [Constraints](SQL/constraints.md)
