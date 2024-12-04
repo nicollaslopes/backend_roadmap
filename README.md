@@ -19,4 +19,4 @@ I put my notes and everything I learned in this process :)
 	</ul>
 </details>
 
-## [SQL](SQL/SQL)
+## [SQL](SQL/SQL.md)
