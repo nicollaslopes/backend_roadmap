@@ -4,5 +4,5 @@ When we talk about SQL Databases, we have to mention about NoSQL. In short, NoSQ
 
 While most relational databases are very similar, NoSQL databaes tend to be very unique and are used for more specific purposes. 
 
-SQL Databases examples: PostgreSQL, MySQL, SQLite, SQLServer, etc.
-NoSQL Databases examples: MongoDB, Redis, ElasticSearc, etc.
+* SQL Databases examples: PostgreSQL, MySQL, SQLite, SQLServer, etc.
+* NoSQL Databases examples: MongoDB, Redis, ElasticSearc, etc.
