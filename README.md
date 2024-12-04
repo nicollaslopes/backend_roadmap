@@ -19,4 +19,9 @@ I put my notes and everything I learned in this process :)
 	</ul>
 </details>
 
-[SQL](SQL/SQL.md)
+<details> 
+<summary>SQL</summary> 
+	<ul>
+			<li>[SQL](SQL/SQL.md)</li>
+	</ul>
+</details>
