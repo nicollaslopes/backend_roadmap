@@ -10,3 +10,7 @@ SQL
 * [NoSQL vs SQL](SQL/nosql_vs_sql.md)
 * [Tables](SQL/tables.md)
 * [Constraints](SQL/constraints.md)
+* [CRUD](SQL/crud.md)
+* [Basic Queries](CRUD/basic_queries.md)
+* [Structuring](CRUD/structuring/md)
+* [Aggregations](CRUD/aggregations)
