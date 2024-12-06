@@ -13,4 +13,5 @@ SQL
 * [CRUD](SQL/crud.md)
 * [Basic Queries](SQL/basic_queries.md)
 * [Structuring](SQL/structuring.md)
-* [Aggregations](SQL/aggregations)
+* [Aggregations](SQL/aggregations.md)
+* [Joins](SQL/joins.md)
