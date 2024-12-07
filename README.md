@@ -15,3 +15,4 @@ SQL
 * [Structuring](SQL/structuring.md)
 * [Aggregations](SQL/aggregations.md)
 * [Joins](SQL/joins.md)
+* [Performance](SQL/performance.md)
