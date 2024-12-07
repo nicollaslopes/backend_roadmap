@@ -15,4 +15,5 @@ Databases
 * [Structuring](Databases/structuring.md)
 * [Aggregations](Databases/aggregations.md)
 * [Joins](Databases/joins.md)
+* [Function](Databases/functions.md)
 * [Performance](Databases/performance.md)

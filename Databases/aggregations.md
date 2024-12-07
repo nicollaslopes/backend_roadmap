@@ -70,3 +70,11 @@ Result:
 RoundValue:
 235.420
 ```
+
+## Count
+
+We can use a `SELECT` statement to get a _count_ of the records within a table. This can be very useful when we need to know _how many_ records there are, but we don't particularly care what's in them.
+
+```sql
+SELECT COUNT(*) FROM employees;
+```
