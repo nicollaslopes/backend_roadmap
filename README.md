@@ -5,14 +5,14 @@ This is my studies about some topics based on https://roadmap.sh/backend
 
 I put my notes and everything I learned in this process :)
 
-SQL
-* [What is SQL?](SQL/what_is_sql.md)
-* [NoSQL vs SQL](SQL/nosql_vs_sql.md)
-* [Tables](SQL/tables.md)
-* [Constraints](SQL/constraints.md)
-* [CRUD](SQL/crud.md)
-* [Basic Queries](SQL/basic_queries.md)
-* [Structuring](SQL/structuring.md)
-* [Aggregations](SQL/aggregations.md)
-* [Joins](SQL/joins.md)
-* [Performance](SQL/performance.md)
+Databases
+* [What is SQL?](what_is_sql.md)
+* [NoSQL vs SQL](nosql_vs_sql.md)
+* [Tables](tables.md)
+* [Constraints](constraints.md)
+* [CRUD](crud.md)
+* [Basic Queries](basic_queries.md)
+* [Structuring](structuring.md)
+* [Aggregations](aggregations.md)
+* [Joins](joins.md)
+* [Performance](performance.md)
