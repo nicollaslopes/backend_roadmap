@@ -1,13 +1,11 @@
-# BACKEND ROADMAP
 
-This is my studies about some topics based on
+<h1 align="center"> BACKEND ROADMAP </h1>
 
-{% embed url="https://roadmap.sh/backend" %}
+This is my studies about some topics based on https://roadmap.sh/backend
 
 I put my notes and everything I learned in this process :)
 
 Databases
-
 * [What is SQL?](Databases/what_is_sql.md)
 * [NoSQL vs SQL](Databases/nosql_vs_sql.md)
 * [Tables](Databases/tables.md)
