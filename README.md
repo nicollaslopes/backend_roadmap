@@ -3,7 +3,7 @@
 
 This is my studies about some topics based on https://roadmap.sh/backend
 
-I put my notes and everything I learned in this process :)
+I put my notes and everything I learned in this process :)x
 
 Databases
 * [What is SQL?](Databases/what_is_sql.md)
