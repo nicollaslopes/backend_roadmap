@@ -19,5 +19,5 @@ Databases
 * [Performance](Databases/performance.md)
 
 Advanced Database Topics
-* [ACID](acid.md)
+* [ACID](Advanced Database Topics/acid.md)
 * 
