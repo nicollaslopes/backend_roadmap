@@ -19,6 +19,9 @@ It makes sure that the transactions can fail without hurting data integrity and 
 
 *References*:
 https://retool.com/blog/whats-an-acid-compliant-database
+
 https://fauna.com/blog/what-is-acid-compliance-atomicity-consistency-isolation
+
 https://www.youtube.com/watch?v=yaQ5YMWkxq4
+
 https://www.youtube.com/watch?v=GAe5oB742dw
