@@ -16,6 +16,7 @@ During its lifecycle, a database transaction goes through multiple states. These
 4. **Failed:** If a transaction fails or has been aborted in the active state or partially committed state, it enters into a _failed_ state.
 5. **Terminated state:** This is the last and final transaction state after a committed or aborted state. This marks the end of the database transaction life cycle.
 
+![image](https://github.com/user-attachments/assets/cd62f16c-0311-48dc-9fff-3e66591de573)
 
 _References:_
 
