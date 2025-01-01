@@ -20,4 +20,6 @@ Databases
 
 Advanced Database Topics
 * [ACID](Advanced%20Database%20Topics/acid.md)
-* 
+* [Transactions](Advanced%20Database%20Topics/transactions.md)
+* [N +1 Problem](Advanced%20Database%20Topics/n_1_problem.md)
+* [Database Normalization](Advanced%20Database%20Topics/database_normalization.md)
