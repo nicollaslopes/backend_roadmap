@@ -44,7 +44,7 @@ run-client-react:
 
 Now we can run postgresql running the command:
 
-```shell
+```sh
 $ make run-postgres
 ```
 

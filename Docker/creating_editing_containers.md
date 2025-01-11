@@ -4,13 +4,13 @@
 
 To download an image, we can go to the the url https://hub.docker.com and search for the images we want. After that, we can run this command below to download an image. We can also check images that have been downloaded with the second command.
 
-```
+```sh
 $ docker pull ubuntu
 $ docker images
 ```
 
 Once a image is downloaded, we can run this command.
-``` 
+```sh
 $ docker run ubuntu
 ```
 
@@ -18,7 +18,7 @@ $ docker run ubuntu
 
 To get a bash and interact with the operation system inside a container, we can use this command below. The flag `-t` means that it will allocate a pseudo terminal and `-i` flag is the interaction mode. If we want to run a container and leave it running in the background, we can add the `-d` flag.
 
-```
+```sh
 $ docker run -it ubuntu
 ```
 
@@ -26,7 +26,7 @@ $ docker run -it ubuntu
 
 If we want to check which containers are running, we can use this command. We can also use`-a`flag to see containers with the "exited" status.
 
-``` 
+```sh
 $ docker ps -a
 ```
 
@@ -34,19 +34,19 @@ $ docker ps -a
 
 If we want to run an application, we can use this command below.
 
-```
+```sh
 $ docker exec -it <container-id> /bin/bash
 ```
 
 Or we can execute a command this way.
 
-```
+```sh
 $ docker exec -it <container-id> cat /etc/*release*
 ```
 
 ### Deleting and naming Containers
 
-```
+```sh
 $ docker rm <container-id>                      // deleting a container
 $ docker rmi <image-name>                       // deleting a image
 $ docker run -dti --name <name> <image-name>    // naming a container
@@ -54,7 +54,7 @@ $ docker run -dti --name <name> <image-name>    // naming a container
 
 ### Copying files to a Container
 
-``` 
+```sh
 $ docker cp <file> <image-name or container-id>:<path>
 
 // example
@@ -63,7 +63,7 @@ $ docker cp index.php d5421906a1f9:/
 
 We can also copy a file inside a container to our host.
 
-```  
+```sh
 $ docker cp <image-name or container-id>:<path-file> <new-file-name>
 
 // example
@@ -74,7 +74,7 @@ $ docker cp d5421906a1f9:/index.php new-index.php
 
 When we use `docker pull` to download an image, the most up-to-date image is always downloaded, although we can use **tags** to download an image in a certain version. To do that, we need to use `:` and then insert the tag.
 
-```
+```sh
 $ docker pull debian:9
 ```
 
@@ -82,7 +82,7 @@ $ docker pull debian:9
 
 Before start, we need to know that it's necessary to specify an environment variable  `MYSQL_ROOT_PASSWORD`. 
 
-```
+```sh
 $ docker run -e MYSQL_ROOT_PASSWORD=<password> --name mysql -d -p 3306:3306 mysql
 $ docker exec -it mysql bash
 $ mysql -u root -p --protocol=tcp
@@ -92,7 +92,7 @@ $ mysql -u root -p --protocol=tcp
 
 When we inspect a container, we can see a item called **Destination** which is a default directory inside the container where the database is stored. To configure the database to be saved outside a container, we need to redirect what is saved in that directory to another folder. 
 
-```
+```sh
 $ docker inspect <image-name>
 
 ...
@@ -109,7 +109,7 @@ $ docker inspect <image-name>
             }
 ```
 
-``` 
+```sh
 $ docker run -e MYSQL_ROOT_PASSWORD=<password> --name mysql -d -p 3306:3306 --volume=<directory-to-be-saved>:/var/lib/mysql mysql
 
 // example
@@ -121,7 +121,7 @@ $ docker run -e MYSQL_ROOT_PASSWORD=<password> --name mysql -d -p 3306:3306 --vo
 
 To see how much CPU and memory is being consumed in a container, just run the following command.
 
-```
+```sh
 $ docker stats <container-id or image-name>
 
 // limiting memory
@@ -133,7 +133,7 @@ $ docker run --name <apelido-imagem> -dti -m 128M --cpus 0.2 ubuntu
 
 ### Information, logs and process
 
-```
+```sh
 $ docker info
 
 $ docker container logs <container-id or image-name>
@@ -145,7 +145,7 @@ $ docker container top <container-id or image-name>
 
 We can also create a new Docker network and create a container that attaches to it.
 
-```
+```sh
 $ docker network ls
 
 NETWORK ID     NAME      DRIVER    SCOPE
