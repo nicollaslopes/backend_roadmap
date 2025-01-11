@@ -64,10 +64,46 @@ cfb0245956f6   none         null      local
 
 $ docker run -d --network my-network ubuntu
 $ docker ps -a
+
+// checking the new network created
+$ docker network inspect my-network
+
+[
+    {
+        "Name": "my-network",
+        "Id": "6b8a7332b7d42cef9323db9ef648181bb5a3c943a0bcecaaba19693f",
+        "Created": "2025-01-08T09:45:58.665303937-03:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        
+        ....
+        "Containers": {
+            "568690c500a35ea5a5484ed34cea8a6bac325f31f914062f0c8daf10": {
+                "Name": "happy_shirley",
+                "EndpointID": "a3426c8168461452ab28e86a1c3f44de333be37bbd54f1",
+                "MacAddress": "02:42:ac:12:00:03",
+                "IPv4Address": "172.18.0.3/16",
+                "IPv6Address": ""
+            },
+            "9ee2e5a17edd0596277eef615d1fa1c694239a85082d159b19f466b98": {
+                "Name": "festive_hellman",
+                "EndpointID": "cfb612accaa89b5c7e79d423476aef3257fc884a651ea2",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
+
+
 $ docker container inspect 99630b9b105e | grep network
 
             "NetworkMode": "my-network",
                 "my-network": {
+
 ```
 
 
