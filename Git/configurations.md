@@ -60,3 +60,6 @@ There are several locations where Git can be configured. From more general to mo
 
 If you set a configuration in a more specific location, it will override the same configuration in a more general location. For example, if you set `user.name` in the local configuration, it will override the `user.name` set in the global configuration.
 
+![image](https://github.com/user-attachments/assets/efca8f2f-9e8e-4a60-9420-fff4bd31da34)
+
+
