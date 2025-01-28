@@ -33,5 +33,5 @@ Docker
  * [Basic Docker commands](Docker/basics_docker_commands.md)
 
 Git
-*  [Introduction](/Git/introduction.md)
+*  [Introduction](Git/introduction.md)
  
