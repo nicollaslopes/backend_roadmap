@@ -14,8 +14,7 @@ If you want to select more than one field, you can specify multiple fields separ
 
 We can select every fields using the shorthand * syntax
 
-```SELECT * FROM users;```
-
+```SELECT * FROM users;``` 
 
 
 

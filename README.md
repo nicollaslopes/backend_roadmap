@@ -1,5 +1,5 @@
 
-<h1 align="center"> BACKEND ROADMAP </h1>
+<h1 align="center"> My Notes</h1>
 
 This is my studies about some topics based on https://roadmap.sh/backend
 
@@ -17,12 +17,11 @@ Databases
 * [Joins](Databases/joins.md)
 * [Function](Databases/functions.md)
 * [Performance](Databases/performance.md)
-
-Advanced Database Topics
-* [ACID](Advanced%20Database%20Topics/acid.md)
-* [Transactions](Advanced%20Database%20Topics/transactions.md)
-* [N +1 Problem](Advanced%20Database%20Topics/n_1_problem.md)
-* [Database Normalization](Advanced%20Database%20Topics/database_normalization.md)
+	- Advanced Database Topics
+		* [ACID](acid.md)
+		* [Transactions](transactions.md)
+		* [N +1 Problem](n_1_problem.md)
+		* [Database Normalization](database_normalization.md)
 
 Docker
  * [Introduction](Docker/introduction.md)
