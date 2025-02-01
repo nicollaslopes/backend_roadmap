@@ -24,7 +24,7 @@ Databases
 		* [Database Normalization](databases/advanced-database-topics/database_normalization.md)
 
 Docker
- * [Introduction](docker/introduction.md)
+ * [Introduction](docker/README.md)
  * [Building container images](docker/building_container_images.md)
  * [Demo application](docker/demo_application.md)
  * [Creating And Editing Containers](docker/creating_editing_containers.md)
@@ -32,5 +32,5 @@ Docker
  * [Basic Docker commands](docker/basics_docker_commands.md)
 
 Git
-*  [Introduction](git/introduction.md)
+*  [Introduction](git/README.md)
  
