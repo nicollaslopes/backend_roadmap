@@ -1,5 +1,5 @@
-
-# Introduction
+# Git
+## Introduction
 
 Git is the distributed **version control system**. Nearly every developer in the world uses it to manage their code. Developers use Git to:
 
