@@ -1,6 +1,6 @@
 # Table of contents
 
-* [BACKEND ROADMAP](README.md)
+* [My Notes](README.md)
 * [Advanced Database Topics](advanced-database-topics/README.md)
   * [ACID](<Advanced Database Topics/acid.md>)
   * [Database Normalization](<Advanced Database Topics/database_normalization.md>)
