@@ -7,26 +7,26 @@ Git comes with a [configuration](https://git-scm.com/docs/git-config) both at 
 Let's see if our identity (`user.name` and `user.email`)are already set. 
 
 ```sh
-git config --get user.name
-git config --get user.email
+$ git config --get user.name
+$ git config --get user.email
 ```
 
 If they aren't, set them. I recommend using your GitHub username and email.
 
 ```sh
-git config --add --global user.name "github_username_here"
-git config --add --global user.email "email@example.com"
+$ git config --add --global user.name "github_username_here"
+$ git config --add --global user.email "email@example.com"
 ```
 
 We can also see our global git configurations.
 
 ```sh 
-cat ~/.gitconfig
-cat .git/config
+$ cat ~/.gitconfig
+$ cat .git/config
 
 or 
 
-git config --list
+$ git config --list
 ```
 
 ## Get and Unset
@@ -34,17 +34,17 @@ git config --list
 We've used `--list` to see _all_ the configuration values, but the `--get` flag is useful for getting a single value.
 
 ```sh
-git config --get <key>
-git config --get user.name
+$ git config --get <key>
+$ git config --get user.name
 ```
 
 The `--unset` flag is used to remove a configuration value. We can use `--unset-all` if we want to purge all instances of a key. For example:
 
 ```sh
-git config --unset <key>
-git config --unset user.name
+$ git config --unset <key>
+$ git config --unset user.name
 
-git config --unset-all example.key
+$ git config --unset-all example.key
 ```
 
 Typically, in a key/value store you aren't allowed to have duplicate keys. Strangely enough, Git doesn't care.
