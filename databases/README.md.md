@@ -1,3 +1,4 @@
+
 # What is SQL?
 
 Structured Query Language or SQL, is the primary language used to manage and interact with relational databases. SQL is a language that we use to communicate with most databases.
@@ -15,6 +16,3 @@ If you want to select more than one field, you can specify multiple fields separ
 We can select every fields using the shorthand * syntax
 
 ```SELECT * FROM users;``` 
-
-
-
