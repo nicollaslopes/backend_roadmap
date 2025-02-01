@@ -4,4 +4,4 @@ Docker is really useful for making our local environment is as close as possible
 
 ### What is a container?
 
-A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application. 
+A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application.
