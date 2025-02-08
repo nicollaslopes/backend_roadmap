@@ -18,10 +18,10 @@ Databases
 * [Function](databases/functions.md)
 * [Performance](databases/performance.md)
   * Advanced Database Topics
-    * [ACID](databases/advanced-database-topics/acid.md)
-    * [Transactions](databases/advanced-database-topics/transactions.md)
-    * [N +1 Problem](databases/advanced-database-topics/n_1_problem.md)
-    * [Database Normalization](databases/advanced-database-topics/database_normalization.md)
+    * [ACID](acid.md)
+    * [Transactions](transactions.md)
+    * [N +1 Problem](n_1_problem.md)
+    * [Database Normalization](database_normalization.md)
 
 Docker
 
