@@ -1,4 +1,5 @@
-# Server Side
+# Server and Client side
+## Server Side
 
 Caching can be categorized into two types: **local caching** and **distributed caching**.
 
@@ -31,6 +32,11 @@ Memcached is a general-purpose distributed memory caching system. It is designed
 ### Caching in PHP Web Applications
 
 https://medium.com/@josephosoo/caching-in-php-web-applications-a-developer-guide-5d1a211541b4
+
+## Client Side
+
+https://www.youtube.com/watch?v=HiBDZgTNpXY
+
 
 *References:*
 
