@@ -1,0 +1,3 @@
+# Authentication
+
+API authentication is the process of verifying the identity of clients attempting to access an API, ensuring that only authorized users or applications can interact with the API’s resources. Common methods include API keys, OAuth 2.0, JSON Web Tokens (JWT), basic authentication, and OpenID Connect. These techniques vary in complexity and security level, from simple token-based approaches to more sophisticated protocols that handle both authentication and authorization. API authentication protects sensitive data, prevents unauthorized access, enables usage tracking, and can provide granular control over resource access.
