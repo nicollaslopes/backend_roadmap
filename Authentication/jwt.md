@@ -71,6 +71,7 @@ The output is three Base64-URL strings separated by dots that can be easily pass
 
 The following shows a JWT that has the previous header and payload encoded, and it is signed with a secret.
 
+![image](https://github.com/user-attachments/assets/c6225abc-1c80-4180-afd5-d469b20079a4)
 
 If you want to play with JWT and put these concepts into practice, you can use [jwt.io Debugger](https://jwt.io/#debugger-io) to decode, verify, and generate JWTs.
 
@@ -81,5 +82,7 @@ In authentication, when the user successfully logs in using their credentials, a
 You also [should not store sensitive session data in browser storage due to lack of security](https://cheatsheetseries.owasp.org/cheatsheets/HTML5_Security_Cheat_Sheet.html#local-storage).
 
 Whenever the user wants to access a protected route or resource, the user agent should send the JWT, typically in the **Authorization** header using the **Bearer** schema. The content of the header should look like the following:
+
+![image](https://github.com/user-attachments/assets/83c21c36-0b33-40d0-8e1c-f46e0ae1ad5d)
 
 This can be, in certain cases, a stateless authorization mechanism. The server's protected routes will check for a valid JWT in the `Authorization` header, and if it's present, the user will be allowed to access protected resources. If the JWT contains the necessary data, the need to query the database for certain operations may be reduced, though this may not always be the case.
