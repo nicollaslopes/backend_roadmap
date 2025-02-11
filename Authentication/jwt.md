@@ -87,6 +87,8 @@ Whenever the user wants to access a protected route or resource, the user agent 
 
 This can be, in certain cases, a stateless authorization mechanism. The server's protected routes will check for a valid JWT in the `Authorization` header, and if it's present, the user will be allowed to access protected resources. If the JWT contains the necessary data, the need to query the database for certain operations may be reduced, though this may not always be the case.
 
+![image](https://github.com/user-attachments/assets/203fe6a2-df49-4c3e-944f-73d61a1e1063)
+
 *References:*
 
 https://jwt.io/introduction
