@@ -71,7 +71,9 @@ The output is three Base64-URL strings separated by dots that can be easily pass
 
 The following shows a JWT that has the previous header and payload encoded, and it is signed with a secret.
 
-![image](https://github.com/user-attachments/assets/c6225abc-1c80-4180-afd5-d469b20079a4)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c6225abc-1c80-4180-afd5-d469b20079a4">
+</p>
 
 If you want to play with JWT and put these concepts into practice, you can use [jwt.io Debugger](https://jwt.io/#debugger-io) to decode, verify, and generate JWTs.
 
