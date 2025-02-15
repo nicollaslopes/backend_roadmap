@@ -11,3 +11,5 @@ SAML is basically a session cookie in your browser that gives you access to weba
 Login with OAuth was made famous by Facebook Connect and Twitter. In this flow, a client accesses a `/me` endpoint with an access token. All it says is that the client has access to the resource with a token. People invented this fake endpoint as a way of getting back a user profile with an access token. It’s a non-standard way to get information about the user. There’s nothing in the standards that say everyone has to implement this endpoint. Access tokens are meant to be opaque. They’re meant for the API, they’re not designed to contain user information.
 
 What you’re really trying to answer with authentication is _who_ the user is, _when_ did the user authenticate, and _how_ did the user authenticate. You can typically answer these questions with SAML assertions, not with access tokens and authorization grants. That’s why we call this pseudo authentication.
+
+![abstract_flow](https://github.com/user-attachments/assets/d690d49c-5ce7-45f3-860d-a8dd2f8a52f5)
