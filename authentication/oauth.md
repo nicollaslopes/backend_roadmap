@@ -16,3 +16,13 @@ What you’re really trying to answer with authentication is _who_ the user is
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d690d49c-5ce7-45f3-860d-a8dd2f8a52f5" alt="abstract_flow">
 </p>
+
+*References:*
+
+https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth
+
+https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
+
+https://www.youtube.com/watch?v=t4-416mg6iU
+
+https://www.youtube.com/watch?v=CPbvxxslDTU
