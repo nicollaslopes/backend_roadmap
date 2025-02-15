@@ -12,6 +12,7 @@ Login with OAuth was made famous by Facebook Connect and Twitter. In this flow, 
 
 What you’re really trying to answer with authentication is _who_ the user is, _when_ did the user authenticate, and _how_ did the user authenticate. You can typically answer these questions with SAML assertions, not with access tokens and authorization grants. That’s why we call this pseudo authentication.
 
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d690d49c-5ce7-45f3-860d-a8dd2f8a52f5" alt="abstract_flow">
 </p>
